@@ -1,0 +1,21 @@
+CrapLab 0.6 Error Log:
+
+-memory-(1)  : error 3 : 25:1: entry : ( empty | asignation | expression | plot );, at offset -1
+    near [Index: 0 (Start: 3734704-Stop: 3734704) ='A', type<17> Line: 1 LinePos:-1]
+     : cannot match to any predicted input...
+-memory-(1)  : error 3 : 25:1: entry : ( empty | asignation | expression | plot );, at offset -1
+    near [Index: 0 (Start: 3734704-Stop: 3734704) ='A', type<17> Line: 1 LinePos:-1]
+     : cannot match to any predicted input...
+-memory-(1)  : error 3 : 25:1: entry : ( empty | asignation | expression | plot );, at offset -1
+    near [Index: 0 (Start: 3734704-Stop: 3734704) ='A', type<17> Line: 1 LinePos:-1]
+     : cannot match to any predicted input...
+-memory-(1)  : error 3 : 25:1: entry : ( empty | asignation | expression | plot );, at offset -1
+    near [Index: 0 (Start: 3734704-Stop: 3734704) ='A', type<17> Line: 1 LinePos:-1]
+     : cannot match to any predicted input...
+-memory-(1)  : error 3 : 25:1: entry : ( empty | asignation | expression | plot );, at offset -1
+    near [Index: 0 (Start: 3734704-Stop: 3734704) ='A', type<17> Line: 1 LinePos:-1]
+     : cannot match to any predicted input...
+-memory-(1) : lexer error 3 :
+	1:1: Tokens : ( PLUS | MINUS | PROD | PER_PROD | DIV | PER_DIV | POT | PER_POT | TRANS | EQUAL | T20 | T21 | T22 | T23 | T24 | T25 | T26 | T27 | T28 | T29 | T30 | T31 | T32 | T33 | T34 | T35 | T36 | T37 | T38 | T39 | T40 | T41 | T42 | T43 | T44 | T45 | T46 | T47 | T48 | T49 | T50 | T51 | T52 | T53 | T54 | T55 | T56 | T57 | T58 | T59 | T60 | T61 | Number | Digit | SP | PreChar | PostChar | Variable ); at offset 2, near '}' :
+	}
+-end of input-(1)  : error 3 : 95:27: ( ( ',' ( SP )? expression )* | ( ':' ( SP )? ( expression )? ( SP )? ':' ( SP )? expression ) ), at offset -1, at <EOF> : cannot match to any predicted input...

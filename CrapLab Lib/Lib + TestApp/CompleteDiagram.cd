@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BenchMark::Operator" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARA=</HashCode>
+      <FileName>Headers\BenchMark.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BenchMark::Operator2&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Headers\BenchMark.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BenchMark::Operator1&lt;T, U&gt;" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Headers\BenchMark.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classic_Store::Vector&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAYAEAAAAAAAABAAAAAEgIAAAAAAA=</HashCode>
+      <FileName>Headers\Classic_Operators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Classic_Store::Matrix&lt;T&gt;" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\Classic_Operators.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Function_Algorithms::Integration" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAEAAAIQAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Function_Algorithms::Derivation" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Headers\Function.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GUI::Console_Icon" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAIAAAAAAAAAAAAAAAAAAAACIAAAAAEAAAA=</HashCode>
+      <FileName>Headers\GUI_Helper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Numeric::Complejo&lt;T&gt;" Collapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAIAAAAAg4AUECQEIAAAAAAgAAAIAAAAAAAA=</HashCode>
+      <FileName>Headers\Numeric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store::CustomStorage&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAhAAAAAAAA=</HashCode>
+      <FileName>Headers\Store.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Store::MatrixX&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Headers\Store.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Div&lt;L, R, T, U&gt;" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAQBAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Div.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Div&lt;L, R, L, U&gt;" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAQBAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Div.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Div&lt;L, R, T, R&gt;" Collapsed="true">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAQBAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Div.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Expression&lt;E, T&gt;" Collapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIABAAAAAAAgQAAAAAAAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Expression&lt;Store::Vector&lt;T&gt;, T&gt;" Collapsed="true">
+    <Position X="41.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIABAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Expression.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Minus&lt;L, R, T, U&gt;" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQBBAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Minus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Minus&lt;L, R, L, U&gt;" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQBBAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Minus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Minus&lt;L, R, T, R&gt;" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQBBAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Minus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plus&lt;L, R, T, U&gt;" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQBAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Plus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plus&lt;L, R, L, U&gt;" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQBAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Plus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plus&lt;L, R, T, R&gt;" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQBAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>Plus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prod&lt;L, R, T, U&gt;" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQBAAAAAAAgAECAAAAAAAAA=</HashCode>
+      <FileName>Prod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prod&lt;L, R, L, U&gt;" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Prod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prod&lt;L, R, T, R&gt;" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Prod.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEIL&lt;T&gt;" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEIL&lt;float&gt;" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEIL&lt;long double&gt;" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEIL&lt;double&gt;" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLOOR&lt;T&gt;" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLOOR&lt;float&gt;" Collapsed="true">
+    <Position X="46.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLOOR&lt;long double&gt;" Collapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FLOOR&lt;double&gt;" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sin&lt;T&gt;" Collapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sin&lt;long double&gt;" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sin&lt;float&gt;" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sin&lt;Store::Vector&lt;float&gt;&gt;" Collapsed="true">
+    <Position X="29" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cos&lt;T&gt;" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cos&lt;long double&gt;" Collapsed="true">
+    <Position X="41.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cos&lt;float&gt;" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sqrt&lt;T&gt;" Collapsed="true">
+    <Position X="39.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sqrt&lt;long double&gt;" Collapsed="true">
+    <Position X="37.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sqrt&lt;float&gt;" Collapsed="true">
+    <Position X="36" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SinH&lt;T&gt;" Collapsed="true">
+    <Position X="34.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SinH&lt;long double&gt;" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SinH&lt;float&gt;" Collapsed="true">
+    <Position X="32.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CosH&lt;T&gt;" Collapsed="true">
+    <Position X="46.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CosH&lt;long double&gt;" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CosH&lt;float&gt;" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tan&lt;T&gt;" Collapsed="true">
+    <Position X="44.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tan&lt;long double&gt;" Collapsed="true">
+    <Position X="43" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tan&lt;float&gt;" Collapsed="true">
+    <Position X="41.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TanH&lt;T&gt;" Collapsed="true">
+    <Position X="29" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TanH&lt;long double&gt;" Collapsed="true">
+    <Position X="30.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TanH&lt;float&gt;" Collapsed="true">
+    <Position X="46.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASin&lt;T&gt;" Collapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASin&lt;long double&gt;" Collapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASin&lt;float&gt;" Collapsed="true">
+    <Position X="41.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ACos&lt;T&gt;" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ACos&lt;long double&gt;" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ACos&lt;float&gt;" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATan&lt;T&gt;" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATan&lt;long double&gt;" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATan&lt;float&gt;" Collapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABS&lt;T&gt;" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABS&lt;long double&gt;" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABS&lt;float&gt;" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ln&lt;T&gt;" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ln&lt;long double&gt;" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ln&lt;float&gt;" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log&lt;T&gt;" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log&lt;long double&gt;" Collapsed="true">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log&lt;float&gt;" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exp&lt;T&gt;" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exp&lt;long double&gt;" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exp&lt;float&gt;" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pow&lt;T&gt;" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pow&lt;long double&gt;" Collapsed="true">
+    <Position X="46.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pow&lt;float&gt;" Collapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>template_cmath.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="promote&lt;T1, T2&gt;" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Promote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="promote&lt;int, double&gt;" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Promote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="promote&lt;double, int&gt;" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Promote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="promote&lt;int, float&gt;" Collapsed="true">
+    <Position X="41.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Promote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="promote&lt;float, int&gt;" Collapsed="true">
+    <Position X="39.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Promote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="promote&lt;float, double&gt;" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Promote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="promote&lt;double, float&gt;" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Promote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RES_Base&lt;L, R, T, U&gt;" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>RES_Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matrix&lt;T&gt;" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACKBATgAjACDAIYAUBiBAQAABhBgIAAIrYlAIKAFA=</HashCode>
+      <FileName>Matrix_Interface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="HRTimer" Collapsed="true">
+    <Position X="30.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAAAAAAAAAQAAAQAAIAAAAAAAAAA=</HashCode>
+      <FileName>Headers\Timer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Header" Collapsed="true">
+    <Position X="29" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAIFAAAIAQAAAAAAQAAAAAAAAAQAAAAAAAgA=</HashCode>
+      <FileName>Utility.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Numeric::VecBin_Polar" Collapsed="true">
+    <Position X="30.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAA=</HashCode>
+      <FileName>Headers\Numeric.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FILACOLUMNA" Collapsed="true">
+    <Position X="29" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAA=</HashCode>
+      <FileName>Matrix_Interface.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
